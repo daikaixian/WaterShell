@@ -5,7 +5,7 @@
 cd /opt
 
 if [ -f "jdk-8u45-linux-x64.rpm" ];then 
-	echo -e "\033[33m Jdk package already exist. I will remove it for you. \033[0m"
+	echo -e "\033[31m Jdk package already exist. I will remove it for you. \033[0m"
 	rm jdk-8u45-linux-x64.rpm
 fi
 
